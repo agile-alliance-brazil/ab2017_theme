@@ -44,7 +44,7 @@ jQuery(document).ready(function($){
 	});
 
 	function showGoogleMaps() {
-	  var position = [-25.452154, -49.252771];
+	  var position = [-1.4217252, -48.456777];
 	    var latLng = new google.maps.LatLng(position[0], position[1]);
 
 	    var mapOptions = {
