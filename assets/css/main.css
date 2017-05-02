@@ -1125,7 +1125,7 @@ h4 {
 
 .path-list {
   font-size: 20px; }
-  .path-list dt {
+  #path div.session-details h2 {
     font-weight: 700;
     color: #00a1c7; }
   .path-list dd {
@@ -1153,7 +1153,9 @@ h4 {
   max-width: 300px; }
 
 .session-list .session-details {
-  text-align: center; }
+  text-align: center;
+  margin-top: 32px;
+}
   @media (min-width: 750px) {
     .session-list .session-details {
       text-align: left; } }
